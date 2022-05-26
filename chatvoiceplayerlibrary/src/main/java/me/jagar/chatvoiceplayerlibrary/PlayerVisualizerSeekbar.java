@@ -3,13 +3,16 @@ package me.jagar.chatvoiceplayerlibrary;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
+
 import android.util.AttributeSet;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatSeekBar;
+import androidx.core.content.ContextCompat;
 
 import java.io.File;
 
-public class PlayerVisualizerSeekbar extends android.support.v7.widget.AppCompatSeekBar{
+public class PlayerVisualizerSeekbar extends AppCompatSeekBar {
 
     /**
      * constant value for Height of the bar
